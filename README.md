@@ -1,0 +1,3 @@
+# Chord
+
+I implemented [the Chord algorithm](https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf) for my Computer Networks course (CMSC417) at the University of Maryland. The code was kind of bad, so I wanted to re-write it, but better, just for fun. My initial attempt was in Zig, but the POSIX socket abstraction provided by the Zig standard library were too confusing for me. I then decided to bite the bullet and use C, but gave up because C reasons (before I even got to fun stuff, like retries). This project will probably exist as a reminder to myself not to attempt to write network abstractions in C, ever.
